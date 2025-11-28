@@ -2,6 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/.*", "dest": "https://guns.lol/mrtomicz" }
+    { "src": "/.*", status:"307", "dest": "https://guns.lol/mrtomicz" }
   ]
 }
