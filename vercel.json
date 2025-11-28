@@ -1,7 +1,6 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
   "routes": [
-    { "src": "/toolkit", "status": 307, "dest": "https://discord.gg/W6SDqev22z" }
+    { "src": "/toolkit", "status": 307, "dest": "https://discord.gg/W6SDqev22z" },
     { "handle": "filesystem" },
     { "src": "/.*", "status": 307, "dest": "https://guns.lol/mrtomicz" }
   ]
