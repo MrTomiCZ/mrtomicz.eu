@@ -11,5 +11,5 @@ export default function handler(req, res) {
     // Normalize IPv4-mapped IPv6 addresses
     if (typeof ip === 'string' && ip.startsWith('::ffff:')) ip = ip.replace('::ffff:', '');
 
-    res.status(200).type("text").send(ip || 'unknown');
+    res.status(200).setHeader("Content-Type", "text/plain").send(ip || 'unknown');
 }
