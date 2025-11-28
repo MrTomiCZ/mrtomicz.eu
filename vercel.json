@@ -3,6 +3,6 @@
     { "src": "/toolkit", "status": 307, "dest": "https://discord.gg/W6SDqev22z" },
     { "src": "/ip", "status": 200, "dest": "/api/ip" },
     { "handle": "filesystem" },
-    { "src": "/.*", "status": 200, "dest": "https://guns.lol/mrtomicz" }
+    { "src": "/.*", "status": 307, "dest": "https://guns.lol/mrtomicz" }
   ]
 }
