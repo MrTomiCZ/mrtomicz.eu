@@ -5,6 +5,7 @@
     { "src": "/favicon.ico", "status": 200, "dest": "/logo.png" },
     { "src": "/time", "status": 200, "dest": "/time.html" },
     { "src": "/black", "status": 200, "dest": "/black.html" },
+    { "src": "/white", "status": 200, "dest": "/white.html" },
     { "handle": "filesystem" },
     { "src": "/.*", "status": 307, "dest": "https://guns.lol/mrtomicz" }
   ]
