@@ -6,6 +6,7 @@
     { "src": "/time", "status": 200, "dest": "/time.html" },
     { "src": "/black", "status": 200, "dest": "/black.html" },
     { "src": "/white", "status": 200, "dest": "/white.html" },
+    { "src": "/legendsmp", "status": 307, "dest": "https://discord.gg/6YXsuNdEqR" },
     { "handle": "filesystem" },
     { "src": "/.*", "status": 307, "dest": "https://guns.lol/mrtomicz" }
   ]
