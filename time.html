@@ -51,6 +51,14 @@
         document.exitFullscreen();
       }
     });
+    document.body.addEventListener('keydown', () => {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+      } else {
+        document.exitFullscreen();
+      }
+    });
   </script>
 </body>
+
 </html>
