@@ -32,7 +32,7 @@
   </style>
 </head>
 <body>
-  <div id="clock">--:--:--:--</div>
+  <div id="clock">--:--:--:---</div>
   <script>
     function updateClock() {
       const now = new Date();
@@ -42,7 +42,7 @@
       const ms = String(now.getMilliseconds()).padStart(2, '0');
       document.getElementById('clock').textContent = `${h}:${m}:${s}:${ms}`;
     }
-    setInterval(updateClock, 500);
+    setInterval(updateClock, 1);
     updateClock();
 
     document.body.addEventListener('click', () => {
