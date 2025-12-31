@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Time</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: #000;
+      color: #fff;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      cursor: none;
+      user-select: none;
+    }
+    #clock {
+      font-size: 10vw;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      text-align: center;
+      transition: text-shadow 0.3s;
+      text-shadow: 0 4px 24px #000a;
+    }
+  </style>
+</head>
+<body>
+  <div id="clock">--:--:--</div>
+  <script>
+    function updateClock() {
+      const now = new Date();
+      const h = String(now.getHours()).padStart(2, '0');
+      const m = String(now.getMinutes()).padStart(2, '0');
+      const s = String(now.getSeconds()).padStart(2, '0');
+      const ms = String(now.getMiliseconds()).padStart(2, '0');
+      document.getElementById('clock').textContent = `${h}:${m}:${s}:${ms}`;
+    }
+    setInterval(updateClock, 500);
+    updateClock();
+
+    document.body.addEventListener('click', () => {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+      } else {
+        document.exitFullscreen();
+      }
+    });
+    document.body.addEventListener('keydown', () => {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+      } else {
+        document.exitFullscreen();
+      }
+    });
+  </script>
+</body>
+
+</html>
