@@ -39,7 +39,7 @@
       const h = String(now.getHours()).padStart(2, '0');
       const m = String(now.getMinutes()).padStart(2, '0');
       const s = String(now.getSeconds()).padStart(2, '0');
-      const ms = String(now.getMilliseconds()).padStart(3 '0');
+      const ms = String(now.getMilliseconds()).padStart(3, '0');
       document.getElementById('clock').textContent = `${h}:${m}:${s}:${ms}`;
     }
     setInterval(updateClock, 1);
