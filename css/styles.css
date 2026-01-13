@@ -1,3 +1,18 @@
+:root {
+    --primary-color: #32693f;
+    --secondary-color: #1b3622;
+    --accent-color: #dbc25e;
+    --background-color: #222222;
+    --text-color: #fff;
+}
+
+* {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,14 +22,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #dbc25e;
+    color: var(--accent-color);
 }
 
 .btn {
     transition: all 0.3s ease;
     background-color: #32693f;
     color: #fff;
-    border: none;
+    border: var(--secondary-color) solid 2px;
+    border-radius: 1%;
     padding: 10px 20px;
     cursor: pointer;
 }
@@ -23,4 +39,6 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 0.3s ease;
     background-color: #1b3622;
     transform: scale(1.25) rotate(5deg);
+    transform-origin: center;
+    border: var(--primary-color) solid 2px;
 }
