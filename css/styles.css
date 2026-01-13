@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     color: var(--link-color);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .btn {
@@ -58,4 +58,5 @@ a {
     color: var(--accent-color);
     background-color: var(--secondary-color);
     bottom: 0;
+    left: 0;
 }
