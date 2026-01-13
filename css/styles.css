@@ -4,6 +4,7 @@
     --accent-color: #dbc25e;
     --background-color: #222222;
     --text-color: #fff;
+    --link-color: #4ea1d3;
 }
 
 html, body {
@@ -24,6 +25,11 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--accent-color);
 }
 
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
 .btn {
     display: inline-block;
     transition: all 0.3s ease;
@@ -42,4 +48,11 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale(1.25) rotate(5deg);
     transform-origin: center;
     border: var(--primary-color) solid 2px;
+}
+
+#footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: var(--accent-color);
+    bottom: 0;
 }
