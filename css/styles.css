@@ -6,7 +6,7 @@
     --text-color: #fff;
 }
 
-* {
+html, body {
     margin: auto;
     align-items: center;
     justify-content: center;
@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0.5em;
     padding: 10px 20px;
     cursor: pointer;
+    will-change: transform;
 }
 
 .btn:hover {
