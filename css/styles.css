@@ -7,17 +7,15 @@
 }
 
 html, body {
-    margin: auto;
     align-items: center;
     justify-content: center;
-    padding: 10px;
     text-align: center;
 }
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     background-color: #222222;
     color: #fff;
 }
@@ -28,8 +26,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
     transition: all 0.3s ease;
-    background-color: #32693f;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--text-color);
     border: var(--secondary-color) solid 2px;
     border-radius: 0.5em;
     padding: 10px 20px;
@@ -39,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn:hover {
     transition: all 0.3s ease;
-    background-color: #1b3622;
+    background-color: var(--secondary-color);
     transform: scale(1.25) rotate(5deg);
     transform-origin: center;
     border: var(--primary-color) solid 2px;
