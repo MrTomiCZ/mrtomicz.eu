@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
+    display: inline-block;
     transition: all 0.3s ease;
     background-color: var(--primary-color);
     color: var(--text-color);
