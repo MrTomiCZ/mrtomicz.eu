@@ -40,6 +40,7 @@ a {
     padding: 10px 20px;
     cursor: pointer;
     will-change: transform;
+    text-decoration: none;
 }
 
 .btn:hover {
