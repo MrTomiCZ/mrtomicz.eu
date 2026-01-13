@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #dbc25e;
+}
+
+.btn {
+    transition: all 0.3s ease;
+    background-color: #32693f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: all 0.3s ease;
+    background-color: #1b3622;
+    transform: scale(1.25) rotate(5deg);
+}

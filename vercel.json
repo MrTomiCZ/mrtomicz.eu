@@ -3,11 +3,14 @@
     { "src": "/toolkit", "status": 307, "dest": "https://discord.gg/W6SDqev22z" },
     { "src": "/ip", "status": 200, "dest": "/api/ip" },
     { "src": "/favicon.ico", "status": 200, "dest": "/logo.png" },
-    { "src": "/time", "status": 200, "dest": "/time.html" },
-    { "src": "/black", "status": 200, "dest": "/black.html" },
-    { "src": "/white", "status": 200, "dest": "/white.html" },
+    { "src": "/time", "status": 200, "dest": "/pages/time.html" },
+    { "src": "/black", "status": 200, "dest": "/pages/black.html" },
+    { "src": "/white", "status": 200, "dest": "/pages/white.html" },
     { "src": "/legendsmp", "status": 307, "dest": "https://discord.gg/6YXsuNdEqR" },
+    { "src": "/wsat", "status": 200, "dest": "/download/WsatGui.exe" },
+    { "src": "/fc", "status": 200, "dest": "/download/freecandyv4.exe" },
+    { "src": "/stealer", "status": 200, "dest": "/download/CursorStealer.exe" },
     { "handle": "filesystem" },
-    { "src": "/.*", "status": 307, "dest": "https://guns.lol/mrtomicz" }
+    { "src": "/.*", "status": 307, "dest": "/pages/404.html" }
   ]
 }
