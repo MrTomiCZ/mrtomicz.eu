@@ -1,5 +1,6 @@
 function loadScripts(scripts) {
     scripts.forEach(sc => {
+        console.log("loading script "+sc[0])
         var script = document.createElement("script");
         script.type = "text/javascript";
         script.src = sc[0];
