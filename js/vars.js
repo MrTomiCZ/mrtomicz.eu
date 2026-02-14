@@ -1,6 +1,6 @@
 const navbar = document.createElement("div");
 navbar.innerHTML = `
-<div style="display: flex; justify-content: left; max-width: 64px;"><img src="/logo.png" style="display: inline-block; max-width: 64px;" /> MrTomiCZ</div>
+<div style="display: flex; justify-content: left; max-width: 64px; align-items: center;"><img src="/logo.png" style="display: inline-block; max-width: 64px;" />&nbsp;&nbsp;MrTomiCZ</div>
 
 <div style="text-align: right;">
 linktest
