@@ -1,6 +1,9 @@
 const navbar = document.createElement("div");
 navbar.innerHTML = `
-navbar indev
+<img src="/logo.png" style="align-items:left;" />
+<div style="text-align: right;">
+linktest
+</div>
 `;
 navbar.id = "navb";
 document.body.prepend(navbar);
