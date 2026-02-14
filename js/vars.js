@@ -1,6 +1,8 @@
 const navbar = document.createElement("div");
 navbar.innerHTML = `
-<img src="/logo.png" style="align-items:left;" />
+<img src="/logo.png" style="display: flex; justify-content: left; max-width: 64px;" />
+<div style="display: flex; justify-content: left; max-width: 64px;">MrTomiCZ</div>
+
 <div style="text-align: right;">
 linktest
 </div>
