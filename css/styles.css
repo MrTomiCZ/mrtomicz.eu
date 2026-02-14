@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "TCKuareen";
+    src: url("/fonts/TCKuareen-Regular.otf");
+}
+
 :root {
     --primary-color: #32693f;
     --secondary-color: #1b3622;
@@ -5,6 +10,9 @@
     --background-color: #222222;
     --text-color: #fff;
     --link-color: #4ea1d3;
+    --navbar-color: #4e480e;
+    --navbar-text-color: #99c09b;
+    --navbar-text: "TCKuareen", Arial, sans-serif;
 }
 
 html, body {
@@ -60,4 +68,16 @@ a {
     background-color: var(--secondary-color);
     bottom: 0;
     left: 0;
+}
+
+#navb {
+    position: absolute;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: var(--navbar-text-color);
+    background-color: var(--navbar-color);
+    top: 0;
+    left: 0;
+    font-family: var(--navbar-text);
 }

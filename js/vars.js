@@ -1,7 +1,7 @@
 const navbar = document.createElement("div");
-navbar.classList.add("navb");
 navbar.innerHTML = `
 navbar indev
 `;
-//document.body.prepend
+navbar.id = "navb";
+document.body.prepend(navbar);
 document.getElementById("footer").innerHTML = "<p>&copy; 2026 MrTomiCZ. All rights reserved.</p>";
