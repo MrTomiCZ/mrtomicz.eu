@@ -75,7 +75,9 @@ const intr = setInterval(() => {
         setTimeout(()=>{
             wrapper.style.transition = "opacity 0.5s ease";
             wrapper.style.opacity = "0";
-//            wrapper.remove();
+            setTimeout(()=>{
+                wrapper.remove();
+            }, 501);
         }, 1);
     }
     el.innerHTML = el.innerHTML + text[int];
