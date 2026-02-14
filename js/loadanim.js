@@ -20,6 +20,7 @@ html, body {
 /* Top bar fixed */
 #cmd-bar {
     height: 31px;
+    background-color: #fff;
 }
 
 /* Terminal body fills rest */
@@ -30,6 +31,7 @@ html, body {
     font-size: 16px;
     line-height: 1;
     white-space: pre-wrap;
+    text-align: left;
 }
 `;
 const stajl = document.createElement("style");
