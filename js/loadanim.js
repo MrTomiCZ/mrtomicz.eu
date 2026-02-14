@@ -40,8 +40,8 @@ const html = `
     <div class="inner">
         <div id="command-console">
             <div id="cmd-bar">
-                <img class="cmd-img" src="topleft_cmd_white.png" style="float:left;height:31px;">
-                <img class="cmd-img" src="topright_cmd_white.png" style="float:right;height:31px;">
+                <img class="cmd-img" src="/imgs/topleft_cmd_white.png" style="float:left;height:31px;">
+                <img class="cmd-img" src="/imgs/topright_cmd_white.png" style="float:right;height:31px;">
                 <div style="clear: both;"></div>
             </div>
             <div id="cmd-body" tabindex="0">
