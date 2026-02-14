@@ -68,6 +68,7 @@ a {
     margin-top: auto;
     padding-top: 1px;
     padding-bottom: 1px;
+    bottom: 0;
 }
 
 #navb {
