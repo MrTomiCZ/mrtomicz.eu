@@ -12,6 +12,7 @@
     { "src": "/stealer", "status": 200, "dest": "/download/CursorStealer.exe" },
     { "src": "/freecandyv4.exe", "status": 200, "dest": "/download/freecandyv4.exe" },
     { "src": "/paths", "status": 200, "dest": "/txt/debian.sh" },
+    { "src": "/bashrc", "status": 200, "dest": "/txt/bashrc" },
     { "handle": "filesystem" },
     { "src": "/.*", "status": 404, "dest": "/pages/404.html" }
   ]
